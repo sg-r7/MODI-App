@@ -1,0 +1,58 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+/ios
+/android
+
+# Metro
+.metro-health-check*
+
+# debug and logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+logs/
+*.log
+.manus-logs/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# local environment files
+.env
+.env.*
+!.env.example
+
+# TypeScript / build artifacts
+*.tsbuildinfo
+*.tgz
+*.tar.gz
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# WebDev / Manus metadata
+.manus/
+.webdev/
+.project-config.json
+.expo-devices.json
